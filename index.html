@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaaz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">ZaaZ</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#planos">
+                            <i class="bi bi-check-circle me-1"></i>
+                            Planos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#aplicativos">
+                            <i class="bi bi-cloud-check me-1"></i>
+                            Aplicativos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre" class="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/slides/slide1.png" alt="Foto interna do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/slides/slide2.png" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/slides/slide3.png" alt="Mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/loja2.jpg" class="d-block w-100 rounded" alt="Foto inauguração loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a <span class="text-colored">ZaaZ</span></h2> 
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit esse sit quod, explicabo, perferendis expedita facere, similique reiciendis quibusdam sed error a nihil! Doloremque veritatis fugiat excepturi earum? Optio?
+                            </p> 
+                            <h3 class="section-title"><span class="text-colored">Nosso</span> Coworking</h3> 
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit esse sit quod, explicabo, perferendis expedita facere, similique reiciendis quibusdam sed error a nihil! Doloremque veritatis fugiat excepturi earum? Optio?
+                            </p> 
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="planos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Conheça <span class="text-colored">nossos planos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/planos/plano1.png" alt="" class="d-block w-100 rounded-5 mb-2">
+                        <h4 class="section-title text-colored">
+                            <i class="bi bi-check-circle"></i>
+                            250Mbps</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias facere nesciunt inventore temporibus sunt quis laborum, iure velit perferendis expedita, dicta fugiat harum ut repellat. Eveniet ipsum tenetur non tempora?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/planos/plano2.png" alt="" class="d-block w-100 rounded-5 mb-2">
+                        <h4 class="section-title text-colored">
+                            <i class="bi bi-check-circle"></i>
+                            500Mbps</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias facere nesciunt inventore temporibus sunt quis laborum, iure velit perferendis expedita, dicta fugiat harum ut repellat. Eveniet ipsum tenetur non tempora?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/planos/plano3.png" alt="" class="d-block w-100 rounded-5 mb-2">
+                        <h4 class="section-title text-colored">
+                            <i class="bi bi-check-circle"></i>
+                            1 Giga</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias facere nesciunt inventore temporibus sunt quis laborum, iure velit perferendis expedita, dicta fugiat harum ut repellat. Eveniet ipsum tenetur non tempora?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="aplicativos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-4">Nossos <span class="text-colored">aplicativos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#musicas" class="text-start fw-bold nav-link text-colored active">Músicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jogos" class="text-start fw-bold nav-link text-colored">Jogos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#antivirus" class="text-start fw-bold nav-link text-colored">Antivirus</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#educacao" class="text-start fw-bold nav-link text-colored">Educação</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div id="musicas" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/mumo.png" alt="Mumo">
+                                        <h5 class="text-colored fw-bold mt-2">Mumo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/mumo.png" alt="Mumo">
+                                        <h5 class="text-colored fw-bold mt-2">Mumo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/mumo.png" alt="Mumo">
+                                        <h5 class="text-colored fw-bold mt-2">Mumo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/mumo.png" alt="Mumo">
+                                        <h5 class="text-colored fw-bold mt-2">Mumo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div id="jogos" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/zaazplay.png" alt="zaazplay">
+                                        <h5 class="text-colored fw-bold mt-2">Zaaz Play</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/zaazplay.png" alt="zaazplay">
+                                        <h5 class="text-colored fw-bold mt-2">Zaaz Play</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/zaazplay.png" alt="zaazplay">
+                                        <h5 class="text-colored fw-bold mt-2">Zaaz Play</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                </div>                              
+                            </div>
+                            <div id="antivirus" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/antivirus.png" alt="Entradas">
+                                        <h5 class="text-colored fw-bold mt-2">Antivirus</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/antivirus.png" alt="Entradas">
+                                        <h5 class="text-colored fw-bold mt-2">Antivirus</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/antivirus.png" alt="Entradas">
+                                        <h5 class="text-colored fw-bold mt-2">Antivirus</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/antivirus.png" alt="Entradas">
+                                        <h5 class="text-colored fw-bold mt-2">Antivirus</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/antivirus.png" alt="Entradas">
+                                        <h5 class="text-colored fw-bold mt-2">Antivirus</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                </div>                              
+                            </div>
+                            <div id="educacao" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/zaazeduca.png" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">ZaazEduca</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/zaazeduca.png" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">ZaazEduca</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/aplicativos/zaazeduca.png" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">ZaazEduca</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.           
+                                        </p>
+                                    </div>
+                                </div>                                       
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"><span class="text-colored">Fale</span> Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="nome">Nome:</label>
+                                <input id="nome" name="nome" class="form-control" type="text">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="email">E-mail</label>
+                                <input id="email" name="email" class="form-control" type="email">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="telefone">Telefone:</label>
+                                <input id="telefone" name="telefone" class="form-control" type="tel">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="mensagem">Mensagem:</label>
+                                <textarea id="mensagem" name="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn mt-4 fw-bold mb-5">Enviar</button>                            
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes <span class="text-colored">Socias</span></h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp whatsapp"></i>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored mt-4">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço</h3>
+                            <p>Rua Cipriano Tavares 130 - Luganenhum/BR - CEP 11.111-111</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>       
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_BR.min.js"></script>
+    <script src="./lib/main.js"></script>
+</body>
+</html>
